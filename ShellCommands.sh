@@ -10,6 +10,8 @@
 # Devops shell commands
 
 set -x  # for debugging
+set -e  # for exit on error
+set -o  pipefail  # for exit on pipe error it only check last command of pipe eg: ls | grep "file" if grep fails then it will exit
 
 def -h  # for help
 
