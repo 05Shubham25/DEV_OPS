@@ -22,3 +22,20 @@ nproc  # for checking number of processors
 ps  -ef | grep amazon | awk -F" " '{print $2}'  # for checking process id
 
 
+#################################
+
+curl https://logfileurl | grep error # retrive data or for downloading file from internet
+
+curl -X POST -d "data" https://logfileurl  # for posting data to url
+
+curl -X GET https://anyurl  # for getting data from url
+
+curl -X DELETE https://anyurl  # for deleting data from url
+
+#################################
+
+#wget is used for downloading file from internet
+
+wget https://anyurl
+
+#################################
