@@ -39,3 +39,13 @@ curl -X DELETE https://anyurl  # for deleting data from url
 wget https://anyurl
 
 #################################
+
+# find command is used for searching file in directory
+
+find / -name "file"  # for searching file in root directory
+
+#################################
+
+# kill -9 is used for killing process
+
+kill -9 1234  # for killing process with id 1234
